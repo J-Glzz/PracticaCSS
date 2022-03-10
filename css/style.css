@@ -172,3 +172,58 @@ body{
     text-align: left;
     color: navy;
 }
+.tool{
+    width: auto;
+    margin: auto;
+}
+.tool .effect-tooltip{
+    padding-left: 50%;
+    color: navy;
+}
+.effect-tooltip li{
+    margin: 2%;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    list-style: none;
+    border-radius: 19px;
+    background: #f2f2f2;
+    box-shadow:  25px 25px 50px #a2a2a2,
+                 -25px -25px 50px #ffffff;
+}
+.show-tooltip-1 .hidee-1{
+    display: none;
+    padding: 25px;
+    border-radius: 6px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -5px -5px 30px #d9d9d9,
+                5px 5px 30px #ffffff;
+}
+.show-tooltip-2 .hidee-2{
+    display: none;
+    border-radius: 6px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -5px -5px 30px #d9d9d9,
+                5px 5px 30px #ffffff;
+}
+.show-tooltip-3 .hidee-3{
+    display: none;
+    border-radius: 6px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -5px -5px 30px #d9d9d9,
+                5px 5px 30px #ffffff;
+}
+.show-tooltip-4 .hidee-4{
+    display: none;
+    border-radius: 6px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -5px -5px 30px #d9d9d9,
+                5px 5px 30px #ffffff;
+}
+.show-tooltip-5 .hidee-5{
+    display: none;
+    border-radius: 6px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -5px -5px 30px #d9d9d9,
+                5px 5px 30px #ffffff;
+}
