@@ -13,10 +13,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .logo img{
-    width: 20%;
+    width: 30%;
 }
 .menu{
     display: flex;
@@ -37,32 +38,39 @@ body{
     color: navy;
     border-radius: 15px;
 }
+
+
+/* Estilos para todo el main */
+/* Primer sección */
+/* Ajustando tamaño de la sección con la imagen de background */
 .bg-primario{
-    width:100%;
+    width:auto;
+    margin: auto;
     height: 120vh;
     background-image: url(../img/vaccination.png);
     background-repeat: no-repeat;
-    background-size: 860px 501px;
     background-position:right top;
-    position: absolute;
     z-index: -1;
 }
+/* Ajustando el contenido escrito y quitando el estilo del list item */
 .content{
-    width: 40%;
-    padding-top: 10%;
+    width: auto;
+    padding-top: 4%;
+    padding-bottom: 22%;
     padding-left: 25px;
-    padding-bottom: 130px;
+    padding-right: 60%;
     text-align:justify;
     color: navy;
 }
 .content li{
     list-style: none;
 }
+/* Ajustando el tamaño, color y posición del formulario  */
 .vac-info{
-    margin: 25px;
-    padding: 20px;
-    width: 90%;
-    height: 30vh;
+    margin: 35px;
+    padding: 25px;
+    width: auto;
+    min-height: auto; 
     border-radius: 19px;
     background: #f2f2f2;
     box-shadow:  25px 25px 50px #a2a2a2,
@@ -74,43 +82,93 @@ body{
 .vac-info form i{
     color: navy !important;
 }
-.bg-secundario .content-logos img{
+
+
+/* Segunda sección */
+/* Ajustando automáticamente el tamaño de la segunda sección */
+.bg-secundario {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+/* Ajustando el tamaño de los logotipos */
+.content-logos img.logo-astra, img.logo-pfi, img.logo-moder, img.logo-sino{
     width: 24%;
-    padding: 2%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1) opacity(0.25);
 }
+
+
+/* Tercera sección */
+/* Ajustando automáticamente el tamaño de la tercera sección */
 .bg-tercero{
-    width: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
 .more-info{
-    width: 40%;
-    padding: 20px;
+    width: auto;
+    padding-right: 50%;
+    padding-left: 25px;
     text-align: justify;
     color: navy;
 }
-.more-info-tercero{
+.more-info-adi{
     width: auto;
     display: flex;
     align-items: center;
-    padding: 25px;
 }
 .int-info{
+    margin: auto;
+    width: auto;
+    height: auto;
     display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .int-info li{
     list-style: none;
-    margin: 30px;
+    margin: 20px;
+    padding: 1%;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 72px #ededed,
+            -5px -5px 72px #ffffff;
 }
-.int-info li a{
+.int-info li.shadow-effect{
     color: navy;
     text-decoration: none;
+    text-align:left;
     transition: all 0.5s;
 }
-.int-info li a:hover{
-    border-radius: 19px;
-    background: #f2f2f2;
-    box-shadow: 25px 25px 50px #a2a2a2,
-            -25px -25px 50px #ffffff;
+.int-info li.shadow-effect:hover{
+    padding: 1%;
+    color: navy;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #9cc2cf, #b9e7f6);
+    box-shadow:  35px 35px 69px #68828a,
+                -35px -35px 69px #f2ffff;
 }
 
+
+/* Cuarta sección */
+.bg-cuarto{
+    width: auto;
+    margin: auto;
+    min-height: 100vh;
+    background-image: url(../img/tapabocas.png);
+    background-repeat: no-repeat;
+    background-size: 674px 599px;
+    background-position: left top;
+    z-index: -1;
+}
+.content-before{
+    width: auto;
+    padding-left: 50%;
+    text-align: left;
+    color: navy;
+}
