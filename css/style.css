@@ -181,50 +181,102 @@ body{
     color: navy;
 }
 .effect-tooltip li{
-    margin: 2%;
+    margin: 5%;
     width: auto;
     height: auto;
-    padding: 2%;
+    padding: 5px;
     list-style: none;
     border-radius: 19px;
     background: #f2f2f2;
     box-shadow:  25px 25px 50px #a2a2a2,
                  -25px -25px 50px #ffffff;
 }
-.show-tooltip-1 .hidee-1{
-    display: none;
-    padding: 25px;
-    border-radius: 6px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -5px -5px 30px #d9d9d9,
-                5px 5px 30px #ffffff;
+li.show-1, i.bi{
+    align-items: center;
+    justify-content: space-between;
 }
-.show-tooltip-2 .hidee-2{
+.hidee-1{
     display: none;
-    border-radius: 6px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -5px -5px 30px #d9d9d9,
-                5px 5px 30px #ffffff;
+    padding: 10px;
+    background: rgba( 156, 194, 207, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 2;
 }
-.show-tooltip-3 .hidee-3{
+.hidee-2{
     display: none;
-    border-radius: 6px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -5px -5px 30px #d9d9d9,
-                5px 5px 30px #ffffff;
+    padding: 10px;
+    background: rgba( 156, 194, 207, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.show-tooltip-4 .hidee-4{
+.hidee-3{
     display: none;
-    border-radius: 6px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -5px -5px 30px #d9d9d9,
-                5px 5px 30px #ffffff;
+    padding: 10px;
+    background: rgba( 156, 194, 207, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.show-tooltip-5 .hidee-5{
+.hidee-4{
     display: none;
-    border-radius: 6px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -5px -5px 30px #d9d9d9,
-                5px 5px 30px #ffffff;
+    padding: 10px;
+    background: rgba( 156, 194, 207, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.hidee-5{
+    display: none;
+    padding: 10px;
+    background: rgba( 156, 194, 207, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 18.5px );
+    -webkit-backdrop-filter: blur( 18.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.show-1:hover + .hidee-1{
+    display: block;
+}
+.show-2:hover + .hidee-2{
+    display: block;
+}
+.show-3:hover + .hidee-3{
+    display: block;
+}
+.show-4:hover + .hidee-4{
+    display: block;
+}
+.show-5:hover + .hidee-5{
+    display: block;
 }
 
+/* Quinta sección */
+.bg-quinto{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    min-height: 100vh;
+    background-image: url(../img/serviciocliente.png);
+    background-repeat: no-repeat;
+    background-size: 800px 580px;
+    background-position:right top;
+    z-index: -1;
+}
+.content-contact{
+    margin-right: 50%;
+    padding: 1%;
+    text-align: justify;
+    color: navy;
+}
