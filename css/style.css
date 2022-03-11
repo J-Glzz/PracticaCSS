@@ -332,3 +332,8 @@ button:hover{
     background-color: lightblue;
     color: navy;
 }
+
+/* Estilo del footer */
+.bg-footer{
+    background-color: aliceblue;
+}
