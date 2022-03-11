@@ -293,7 +293,7 @@ li.show-1, i.bi{
     margin-right: 1.5%;
     padding: auto;
     width: auto;
-    min-height: 100vh;
+    min-height: 75vh;
     background-image: url(../img/serviciocliente.png);
     background-repeat: no-repeat;
     background-size: 800px 580px;
@@ -304,5 +304,31 @@ li.show-1, i.bi{
     margin-right: 50%;
     padding: 1%;
     text-align: justify;
+    color: navy;
+}
+.bg-glass{
+    padding: 4%;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  35px 35px 69px #a5a2a2dc,
+            -35px -35px 69px #c4c2c2;
+}
+button.call-now, button.chat-now, button.video-call-now, button.message-now{
+    background-color: whitesmoke;
+    color: navy;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightblue;
     color: navy;
 }
