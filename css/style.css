@@ -8,7 +8,10 @@ body{
     background-color: white;
 }
 .navi{
-    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     background-color: white;
     display: flex;
     align-items: center;
@@ -44,8 +47,12 @@ body{
 /* Primer sección */
 /* Ajustando tamaño de la sección con la imagen de background */
 .bg-primario{
+    margin-top: auto;
+    margin-bottom: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: auto;
     width:auto;
-    margin: auto;
     height: 120vh;
     background-image: url(../img/vaccination.png);
     background-repeat: no-repeat;
@@ -87,15 +94,19 @@ body{
 /* Segunda sección */
 /* Ajustando automáticamente el tamaño de la segunda sección */
 .bg-secundario {
-    width: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: auto;
     height: auto;
     margin: auto;
 }
 /* Ajustando el tamaño de los logotipos */
 .content-logos img.logo-astra, img.logo-pfi, img.logo-moder, img.logo-sino{
     width: 24%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: auto;
+    padding-bottom: auto;
     padding-left: 2%;
     padding-right: 2%;
     -webkit-filter: grayscale(1);
@@ -106,9 +117,13 @@ body{
 /* Tercera sección */
 /* Ajustando automáticamente el tamaño de la tercera sección */
 .bg-tercero{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: auto;
     width: auto;
     height: auto;
-    margin: auto;
 }
 .more-info{
     width: auto;
@@ -157,8 +172,12 @@ body{
 
 /* Cuarta sección */
 .bg-cuarto{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     width: auto;
-    margin: auto;
+    padding: auto;
     min-height: 100vh;
     background-image: url(../img/tapabocas.png);
     background-repeat: no-repeat;
@@ -168,16 +187,20 @@ body{
 }
 .content-before{
     width: auto;
-    padding-left: 50%;
-    text-align: left;
+    margin-left: 50%;
+    text-align: justify;
     color: navy;
 }
 .tool{
-    width: auto;
     margin: auto;
+    width: auto;
+    height: auto;
 }
 .tool .effect-tooltip{
-    padding-left: 50%;
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
     color: navy;
 }
 .effect-tooltip li{
@@ -264,7 +287,10 @@ li.show-1, i.bi{
 
 /* Quinta sección */
 .bg-quinto{
-    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     padding: auto;
     width: auto;
     min-height: 100vh;
