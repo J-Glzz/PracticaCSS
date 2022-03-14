@@ -336,4 +336,5 @@ button:hover{
 /* Estilo del footer */
 .bg-footer{
     background-color: aliceblue;
+    height: 45vh;
 }
